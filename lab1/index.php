@@ -17,14 +17,20 @@ echo "Выполняем задание лабораторной работы �
 include ("author.php");
 
 for($i = 1; $i<=9; $i++) {
+    echo "<p style = 'margin-top: 0px'>";
     for ($j = 1; $j <= 9; $j++)
     {
-        echo "$i * $j = ";
-        echo $i*$j;
-        echo "  ";
+        echo "$i * $j = ".$i*$j."&nbsp;&nbsp;&nbsp;&nbsp;";
     }
-    echo "<br>";
+    echo "</p>";
 }
+
+echo "<table style = 'text-align: center'><tr bgcolor='FFD700'><td >Gold</td><td>#FFD700</td><td>255, 215, 0</td></tr>";
+echo "<tr bgcolor='FFA500'><td>Orange</td><td>#FFA500</td><td>255, 165, 0</td></tr>";
+echo "<tr bgcolor='8B008B' style = 'color:white'><td>DarkMagenta</td><td>#8B008B</td><td>139, 0, 0</td></tr>";
+echo "<tr bgcolor='FF0000' style = 'color:white'><td>Red</td><td>#FF0000</td><td>255, 0, 0</td></tr>";
+echo "<tr bgcolor='000080' style = 'color:white'><td>Navy</td><td>#000080</td><td>0, 0, 128</td></tr></table>";
+
 
 echo '</body>
 </html>';
