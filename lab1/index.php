@@ -32,6 +32,7 @@ echo "<tr bgcolor='FF0000' style = 'color:white'><td>Red</td><td>#FF0000</td><td
 echo "<tr bgcolor='000080' style = 'color:white'><td>Navy</td><td>#000080</td><td>0, 0, 128</td></tr></table>";
 
 
+
 echo '</body>
 </html>';
 
