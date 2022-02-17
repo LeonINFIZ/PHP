@@ -15,7 +15,7 @@ echo '</table>';
 
 echo "Выполняем задание лабораторной работы №1<br>";
 include ("author.php");
-
+echo "<div style = 'text-align: center'>";
 for($i = 1; $i<=9; $i++) {
     echo "<p style = 'margin-top: 0px'>";
     for ($j = 1; $j <= 9; $j++)
@@ -24,6 +24,7 @@ for($i = 1; $i<=9; $i++) {
     }
     echo "</p>";
 }
+echo "</div>";
 
 echo "<table style = 'text-align: center'><tr bgcolor='FFD700'><td >Gold</td><td>#FFD700</td><td>255, 215, 0</td></tr>";
 echo "<tr bgcolor='FFA500'><td>Orange</td><td>#FFA500</td><td>255, 165, 0</td></tr>";
