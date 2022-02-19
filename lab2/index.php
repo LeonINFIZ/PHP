@@ -76,7 +76,7 @@ include $_SERVER["DOCUMENT_ROOT"]."/task2.php";
 
 <?php
 
-include $_SERVER["DOCUMENT_ROOT"]."/task3.php";
+include $_SERVER["DOCUMENT_ROOT"]."/task3_and_4.php";
 
 ?>
 
