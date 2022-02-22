@@ -20,7 +20,7 @@ if(!empty($_POST) && $_POST["form"]==3 && $_POST["log"]!=null && $_POST["pass"]!
         )
     ];
 
-    echo "<br><table border='1px'><tr><td>";
+    echo "<br><table style='border: solid'><tr><td>";
 
     $ok = false;
 

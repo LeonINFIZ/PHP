@@ -16,14 +16,20 @@ echo '</table>';
 echo "Выполняем задание лабораторной работы №1<br>";
 include ("author.php");
 echo "<div style = 'text-align: center'>";
+
+echo "<br><table style='border: solid'><tr>";
 for($i = 1; $i<=9; $i++) {
-    echo "<p style = 'margin-top: 0px'>";
+    echo "<th>";
     for ($j = 1; $j <= 9; $j++)
     {
         echo "$i * $j = ".$i*$j."&nbsp;&nbsp;&nbsp;&nbsp;";
+        echo "<br>";
     }
-    echo "</p>";
+    echo "</th>";
 }
+echo "</tr></table>";
+
+
 echo "</div>";
 
 echo "<table style = 'text-align: center'><tr bgcolor='FFD700'><td >Gold</td><td>#FFD700</td><td>255, 215, 0</td></tr>";
